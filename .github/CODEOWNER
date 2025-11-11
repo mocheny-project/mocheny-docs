@@ -1,0 +1,8 @@
+# .github/CODEOWNERS
+
+# Menetapkan Pemilik Kode untuk semua file di root repository.
+# Ini menjamin bahwa setiap perubahan pada dokumen Governance (OWNERSHIP.md, BRANDING.md)
+# harus disetujui oleh founder/admin.
+
+# Pemilik untuk semua file di root repo (termasuk .md, lisensi, dan .github)
+* @itwahjoedi
