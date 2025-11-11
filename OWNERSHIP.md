@@ -12,7 +12,7 @@ Dokumen ini mendefinisikan kepemilikan dan hak kekayaan intelektual (IP) dari Mo
 1.3. **Namespace Resmi:** Semua aset resmi Mocheny hanya didistribusikan melalui Organization Namespace yang dikontrol penuh oleh Pemilik:
     * **Kode:** `github.com/mocheny-project`
     * **Artifacts:** `ghcr.io/mocheny-project`
-    * **Dokumentasi Sementara:** `mocheny-project.pages.dev`
+    * **Dokumentasi Sementara:** `mocheny.pages.dev`
 
 ### 2. Lingkup Kepemilikan Inti (Core Assets)
 
