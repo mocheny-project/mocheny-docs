@@ -1,8 +1,12 @@
-## 🎨 BRANDING.md (Rev 1: Brand Identity & Usage Guidelines)
+## 🎨 BRANDING.md (Rev 2: Brand Identity & Usage Guidelines)
 
 Dokumen ini mendefinisikan standar resmi, terminologi, dan aturan penggunaan untuk merek Mocheny Project. Dokumen ini bertujuan untuk menjaga integritas dan otoritas merek (Brand Authority) di seluruh ekosistem.
 
 ---
+
+## ⚠️ PEMBERITAHUAN HAK CIPTA (COPYRIGHT NOTICE)
+
+Meskipun sebagian besar dokumentasi naratif Mocheny Project dilisensikan di bawah CC BY 4.0, file **BRANDING.md** ini dan **OWNERSHIP.md** sepenuhnya tunduk pada **Copyright Pemilik** dan **BUKAN** dilisensikan di bawah CC BY 4.0 atau Apache 2.0. Kedua file ini tidak boleh dimodifikasi atau didistribusikan ulang, kecuali untuk tujuan referensi.
 
 ### 1. Naming & Capitalization (Merek Induk)
 
@@ -19,9 +23,8 @@ Semua produk inti menggunakan formula **Mocheny + [Descriptor]** dan harus dikap
 | Nama Produk | Deskripsi Fungsi | Repo Terkait |
 | :--- | :--- | :--- |
 | **Mocheny CLI** | Mesin *core* dan *command-line tool*. | `mocheny-project/mocheny-cli` |
-| **Mocheny Secret** | Layanan penyimpanan rahasia dan kredensial sensitif. | `mocheny-project/mocheny-secret` |
-| **Mocheny Environment** | Konfigurasi lingkungan (JPS Manifests dan Docker Image) dan manajemen *Parity*. | `mocheny-project/mocheny-environment` |
-| **Mocheny Inspect** | Pengamatan metrik dan verifikasi status *real-time*. | (Diimplementasikan dalam Mocheny CLI) |
+| **Mocheny Envabox** | Koleksi *ready-made development environment* (Docker) dan *easy deploy* ke Jelastic. | `mocheny-project/mocheny-envabox` |
+| **Mocheny Edna** | *Edge Native CMS Core* yang terinspirasi dari WordPress Ecosystem. | `mocheny-project/mocheny-edna` |
 
 ### 3. Nomenklatur Teknis (Glossary Wajib)
 
@@ -39,7 +42,7 @@ Istilah berikut adalah **Brand Terminology** resmi Mocheny dan harus digunakan s
 
 Aturan ini berlaku untuk semua pihak eksternal, komunitas, dan kontributor:
 
-4.1. **Penggunaan Nama Produk:** Pihak eksternal TIDAK DIPERBOLEHKAN menggunakan nama produk resmi Mocheny (e.g., Mocheny Secret, Mocheny Environment) untuk **distribusi *fork*** atau produk *open source* turunan mereka.
+4.1. **Penggunaan Nama Produk:** Pihak eksternal TIDAK DIPERBOLEHKAN menggunakan nama produk resmi Mocheny (e.g., Mocheny Envabox, Mocheny Edna) untuk **distribusi *fork*** atau produk *open source* turunan mereka.
 
 4.2. **Klaim Kemitraan:** Anda tidak boleh menyiratkan kemitraan, dukungan, atau afiliasi resmi dengan Mocheny Project tanpa izin tertulis dari Pemilik.
 
@@ -54,6 +57,8 @@ Aturan ini berlaku untuk semua pihak eksternal, komunitas, dan kontributor:
     * **Library/SDK:** Gunakan *PascalCase* (`MochenyAuthSDK`).
     * **Variable/Fungsi:** Gunakan *snake_case* atau *camelCase* sesuai bahasa pemrogramannya.
 
-5.2. **Official Registry:** Pengguna harus selalu diarahkan ke **`ghcr.io/mocheny-project`** untuk *artifact* resmi yang terpercaya.
+5.2. **Struktur Repository:** Setiap repository produk inti (`mocheny-cli`, `mocheny-envabox`, `mocheny-edna`) akan diatur sebagai **pnpm Monorepo** internal untuk memfasilitasi pengembangan *packages* yang modular dan efisien.
+
+5.3. **Official Registry:** Pengguna harus selalu diarahkan ke **`ghcr.io/mocheny-project`** untuk *artifact* resmi yang terpercaya.
 
 ---
